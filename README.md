@@ -8,9 +8,9 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - [Icones](https://www.iconsdb.com/white-icons/)
 - [Paleta de Cores](https://flatuicolors.com/)
 - [JCalendar](https://toedter.com/jcalendar/)
-- JFreeChart(http://www.jfree.org/jfreechart/) para geração de gráficos
-- RXTXComm(http://jlog.org/rxtx.html) para comunicação com o Arduino pela porta Serial
-- JasperReport(https://community.jaspersoft.com/project/jasperreports-library) para criar PDFs
+- [JFreeChart](http://www.jfree.org/jfreechart/) para geração de gráficos
+- [RXTXComm](http://jlog.org/rxtx.html) para comunicação com o Arduino pela porta Serial
+- [JasperReport](https://community.jaspersoft.com/project/jasperreports-library) para criar PDFs
 
 ## Aula 1 - Calculadora
 
