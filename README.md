@@ -1,7 +1,16 @@
-# Aulas da Disciplina Eletiva II - Java
+# Eletiva - Linguagem de Programação III - Linguagem JAVA
 
+Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/). Todas as aulas são baseadas em pequenos projetos de telas funcionais.
+
+### Ferramentas utilizadas durante as aulas
+
+- [Netbeans + JDK](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk-netbeans-jsp-3413153-ptb.html)
 - [Icones](https://www.iconsdb.com/white-icons/)
 - [Paleta de Cores](https://flatuicolors.com/)
+- [JCalendar](https://toedter.com/jcalendar/)
+- JFreeChart(http://www.jfree.org/jfreechart/) para geração de gráficos
+- RXTXComm(http://jlog.org/rxtx.html) para comunicação com o Arduino pela porta Serial
+- JasperReport(https://community.jaspersoft.com/project/jasperreports-library) para criar PDFs
 
 ## Aula 1 - Calculadora
 
@@ -67,3 +76,7 @@
 ## Aula 9 - Tela de Apresentação e Login
 
 ## Aula 10 - Avaliação
+
+
+
+
