@@ -38,8 +38,8 @@
 ## Aula 6 - Caixa de Mercado
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_06.jpg" height="300"/>
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_06.png" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_06.jpg" height="250"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_06.png" height="250"/>
 </p>
 
 ## Aula 7 - Quiz
