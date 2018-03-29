@@ -77,6 +77,16 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 
 ## Aula 10 - Avaliação
 
+## Aula 11 - Média e Desvio Padrão
 
+## Aula 12 - Controlando Arduino
 
+## Aula 13 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
 
+## Aula 14 - Criando um Mini Sistema - Interfaces Gráficas
+
+## Aula 15 - Criando um Mini Sistema - Controladores
+
+## Aula 16 - Criando um Mini Sistema - Gerando Relatórios
+
+## Aula 17 - Criando um Mini Sistema - Criando instaladores
