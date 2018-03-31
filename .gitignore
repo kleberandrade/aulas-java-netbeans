@@ -22,5 +22,5 @@
 hs_err_pid*
 
 
-/**/[Bb]uilds/**
-/**/[Dd]ist/**
+**/[Bb]uild
+**/[Dd]ist
