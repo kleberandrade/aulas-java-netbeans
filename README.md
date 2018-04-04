@@ -71,6 +71,15 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 
 ## Aula 7 - Quiz
 
+- **Novos componentes:** JTextArea, GridLayout
+- **Componentes:** JFrame, JPanel, JLabel, JButton
+- **Classes:** ArrayList, Collections, Scanner, File
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_07.png" height="250"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_07.png" height="250"/>
+</p>
+
 ## Aula 8 - Jogo da Forca
 
 ## Aula 9 - Tela de Apresentação e Login
