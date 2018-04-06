@@ -80,19 +80,23 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_07.png" height="300"/>
 </p>
 
-## Aula 8 - Jogo da Forca
+## Aula 8 - Média e Desvio Padrão
 
-## Aula 9 - Tela de Apresentação e Login
+- **Novos componentes:** JTextArea, GridLayout
+- **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton, JList, JFreeChart
+- **Classes:** ArrayList, Collections, Scanner, File
+
+## Aula 9 - Jogo da Forca
 
 ## Aula 10 - Avaliação
 
-## Aula 11 - Média e Desvio Padrão
+## Aula 11 - Controlando Arduino
 
-## Aula 12 - Controlando Arduino
+## Aula 12 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
 
-## Aula 13 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
+## Aula 13 - Criando um Mini Sistema - Interfaces Gráficas
 
-## Aula 14 - Criando um Mini Sistema - Interfaces Gráficas
+## Aula 14 - Tela de Apresentação e Login
 
 ## Aula 15 - Criando um Mini Sistema - Controladores
 
