@@ -82,9 +82,9 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 
 ## Aula 8 - Média e Desvio Padrão
 
-- **Novos componentes:** JTextArea, GridLayout
-- **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton, JList, JFreeChart
-- **Classes:** ArrayList, Collections, Scanner, File
+- **Novos componentes:** JList
+- **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton, JList, JFreeChart, GridLayout
+- **Classes:** ArrayList, Collections
 
 ## Aula 9 - Jogo da Forca
 
