@@ -86,6 +86,12 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton, JList, JFreeChart, GridLayout
 - **Classes:** ArrayList, Collections
 
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_08.png" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_08.png" height="300"/>
+</p>
+
+
 ## Aula 9 - Jogo da Forca
 
 ## Aula 10 - Avaliação
