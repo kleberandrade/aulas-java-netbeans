@@ -87,7 +87,7 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Classes:** ArrayList, Collections
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_08.png" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_08.jpg" height="300"/>
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_08.png" height="300"/>
 </p>
 
