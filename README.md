@@ -91,12 +91,28 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_08.png" height="300"/>
 </p>
 
-
 ## Aula 9 - Jogo da Forca
 
-## Aula 10 - Avaliação
+- **Novos componentes:** 
+- **Componentes:** 
+- **Classes:** ArrayList, Collections, Scanner, File
 
-## Aula 11 - Controlando Arduino
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_09.jpg" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_09.png" height="300"/>
+</p>
+
+## Aula 10 - Jogo da Memória (Genius) - Arduino
+
+- **Componentes:** JFrame, JPanel, JTextField, JButton
+- **Classes:** SerialPort, OutputStream, InputStream
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_10.jpg" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_10.png" height="300"/>
+</p>
+
+## Aula 11 - Avaliação
 
 ## Aula 12 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
 
