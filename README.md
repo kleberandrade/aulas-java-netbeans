@@ -91,7 +91,15 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_08.png" height="300"/>
 </p>
 
-## Aula 9 - Jogo da Forca
+
+## Aula 9 - Controle Financeiro
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_09.png" height="300"/>
+</p>
+
+
+## Aula 10 - Jogo da Forca
 
 - **Novos componentes:** 
 - **Componentes:** 
@@ -102,7 +110,11 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_09.png" height="300"/>
 </p>
 
-## Aula 10 - Jogo da Memória (Genius) - Arduino
+
+## Aula 11 - Avaliação
+
+
+## Aula 12 - Jogo da Memória (Genius) - Arduino
 
 - **Componentes:** JFrame, JPanel, JTextField, JButton
 - **Classes:** SerialPort, OutputStream, InputStream
@@ -112,16 +124,14 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_10.png" height="300"/>
 </p>
 
-## Aula 11 - Avaliação
+## Aula 13 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
 
-## Aula 12 - Criando um Mini Sistema - Banco de Dados e Data Access Object (DAO)
+## Aula 14 - Criando um Mini Sistema - Interfaces Gráficas
 
-## Aula 13 - Criando um Mini Sistema - Interfaces Gráficas
+## Aula 15 - Tela de Apresentação e Login
 
-## Aula 14 - Tela de Apresentação e Login
+## Aula 16 - Criando um Mini Sistema - Controladores
 
-## Aula 15 - Criando um Mini Sistema - Controladores
+## Aula 17 - Criando um Mini Sistema - Gerando Relatórios
 
-## Aula 16 - Criando um Mini Sistema - Gerando Relatórios
-
-## Aula 17 - Criando um Mini Sistema - Criando instaladores
+## Aula 18 - Criando um Mini Sistema - Criando instaladores
