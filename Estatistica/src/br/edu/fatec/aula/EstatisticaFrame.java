@@ -236,6 +236,7 @@ public class EstatisticaFrame extends javax.swing.JFrame {
 
         graficoBarraButton.setBackground(new java.awt.Color(52, 152, 219));
         graficoBarraButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/fatec/icones/bar-chart-5-48.png"))); // NOI18N
+        graficoBarraButton.setToolTipText("");
         graficoBarraButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 graficoBarraButtonActionPerformed(evt);
