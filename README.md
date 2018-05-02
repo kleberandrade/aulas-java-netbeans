@@ -115,8 +115,8 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Classes:** SerialPort, OutputStream, InputStream
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_10.jpg" height="300"/>
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_10.png" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_11.jpg" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_11.png" height="300"/>
 </p>
 
 ## Projeto 12 - Jogo da Forca por Comando de Voz
@@ -126,12 +126,12 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Classes:** ArrayList, Collections, Scanner, File
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_11.jpg" height="300"/>
-  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_11.png" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_12.jpg" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_12.png" height="300"/>
 </p>
 
-## Projeto 13 - Lendo QRCodes e Código de Barras
+## Projeto 13 - Sistema de Estacionamento (Código de Barras e Impressora)
 
-## Projeto 14 - Relatórios
+## Projeto 14 - Calculo de Tecelagem com Relatórios
 
 ## Projeto 15 - Tela de Apresentação, Login e Instaladores
