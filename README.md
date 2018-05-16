@@ -35,7 +35,7 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Novos componentes:** JTabbedPane, JRadioButton, ButtonGroup
 - **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton
 
-<p align="center">
+<p align="center">6
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_03.jpg" height="300"/>
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_03.png" height="300"/>
 </p>

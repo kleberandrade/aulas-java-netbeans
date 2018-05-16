@@ -36,3 +36,4 @@ hs_err_pid*
 *.zip
 *.tar.gz
 *.rar
+/ProjetoREST/target/

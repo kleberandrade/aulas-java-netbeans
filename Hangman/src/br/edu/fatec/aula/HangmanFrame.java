@@ -36,32 +36,32 @@ public class HangmanFrame extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
+        aButton = new javax.swing.JButton();
+        bButton = new javax.swing.JButton();
+        cButton = new javax.swing.JButton();
+        dButton = new javax.swing.JButton();
+        eButton = new javax.swing.JButton();
+        fButton = new javax.swing.JButton();
+        gButton = new javax.swing.JButton();
+        hButton = new javax.swing.JButton();
+        iButton = new javax.swing.JButton();
+        jButton = new javax.swing.JButton();
+        kButton = new javax.swing.JButton();
+        lButton = new javax.swing.JButton();
+        mButton = new javax.swing.JButton();
+        nButton = new javax.swing.JButton();
+        oButton = new javax.swing.JButton();
+        pButton = new javax.swing.JButton();
+        qButton = new javax.swing.JButton();
+        rButton = new javax.swing.JButton();
+        sButton = new javax.swing.JButton();
+        tButton = new javax.swing.JButton();
+        uButton = new javax.swing.JButton();
+        vButton = new javax.swing.JButton();
+        wButton = new javax.swing.JButton();
+        xButton = new javax.swing.JButton();
+        yButton = new javax.swing.JButton();
+        zButton = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         dicaLabel = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
@@ -81,151 +81,181 @@ public class HangmanFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(44, 62, 80));
         jPanel2.setLayout(new java.awt.GridLayout(2, 13, 2, 2));
 
-        jButton1.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(44, 62, 80));
-        jButton1.setText("A");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        aButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        aButton.setForeground(new java.awt.Color(44, 62, 80));
+        aButton.setText("A");
+        aButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                aButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1);
+        jPanel2.add(aButton);
 
-        jButton2.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(44, 62, 80));
-        jButton2.setText("B");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        bButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        bButton.setForeground(new java.awt.Color(44, 62, 80));
+        bButton.setText("B");
+        bButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                bButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton2);
+        jPanel2.add(bButton);
 
-        jButton3.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(44, 62, 80));
-        jButton3.setText("C");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        cButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        cButton.setForeground(new java.awt.Color(44, 62, 80));
+        cButton.setText("C");
+        cButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                cButtonActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton3);
+        jPanel2.add(cButton);
 
-        jButton4.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(44, 62, 80));
-        jButton4.setText("D");
-        jPanel2.add(jButton4);
+        dButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        dButton.setForeground(new java.awt.Color(44, 62, 80));
+        dButton.setText("D");
+        jPanel2.add(dButton);
 
-        jButton5.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(44, 62, 80));
-        jButton5.setText("E");
-        jPanel2.add(jButton5);
+        eButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        eButton.setForeground(new java.awt.Color(44, 62, 80));
+        eButton.setText("E");
+        jPanel2.add(eButton);
 
-        jButton6.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(44, 62, 80));
-        jButton6.setText("F");
-        jPanel2.add(jButton6);
+        fButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        fButton.setForeground(new java.awt.Color(44, 62, 80));
+        fButton.setText("F");
+        jPanel2.add(fButton);
 
-        jButton7.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(44, 62, 80));
-        jButton7.setText("G");
-        jPanel2.add(jButton7);
+        gButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        gButton.setForeground(new java.awt.Color(44, 62, 80));
+        gButton.setText("G");
+        jPanel2.add(gButton);
 
-        jButton8.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(44, 62, 80));
-        jButton8.setText("H");
-        jPanel2.add(jButton8);
+        hButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        hButton.setForeground(new java.awt.Color(44, 62, 80));
+        hButton.setText("H");
+        jPanel2.add(hButton);
 
-        jButton9.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(44, 62, 80));
-        jButton9.setText("I");
-        jPanel2.add(jButton9);
+        iButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        iButton.setForeground(new java.awt.Color(44, 62, 80));
+        iButton.setText("I");
+        jPanel2.add(iButton);
 
-        jButton10.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(44, 62, 80));
-        jButton10.setText("J");
-        jPanel2.add(jButton10);
+        jButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        jButton.setForeground(new java.awt.Color(44, 62, 80));
+        jButton.setText("J");
+        jPanel2.add(jButton);
 
-        jButton11.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton11.setForeground(new java.awt.Color(44, 62, 80));
-        jButton11.setText("K");
-        jPanel2.add(jButton11);
+        kButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        kButton.setForeground(new java.awt.Color(44, 62, 80));
+        kButton.setText("K");
+        jPanel2.add(kButton);
 
-        jButton12.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(44, 62, 80));
-        jButton12.setText("L");
-        jPanel2.add(jButton12);
+        lButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        lButton.setForeground(new java.awt.Color(44, 62, 80));
+        lButton.setText("L");
+        jPanel2.add(lButton);
 
-        jButton13.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(44, 62, 80));
-        jButton13.setText("M");
-        jButton13.setToolTipText("");
-        jPanel2.add(jButton13);
+        mButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        mButton.setForeground(new java.awt.Color(44, 62, 80));
+        mButton.setText("M");
+        mButton.setToolTipText("");
+        jPanel2.add(mButton);
 
-        jButton14.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton14.setForeground(new java.awt.Color(44, 62, 80));
-        jButton14.setText("N");
-        jPanel2.add(jButton14);
+        nButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        nButton.setForeground(new java.awt.Color(44, 62, 80));
+        nButton.setText("N");
+        jPanel2.add(nButton);
 
-        jButton15.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton15.setForeground(new java.awt.Color(44, 62, 80));
-        jButton15.setText("O");
-        jPanel2.add(jButton15);
+        oButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        oButton.setForeground(new java.awt.Color(44, 62, 80));
+        oButton.setText("O");
+        jPanel2.add(oButton);
 
-        jButton16.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton16.setForeground(new java.awt.Color(44, 62, 80));
-        jButton16.setText("P");
-        jPanel2.add(jButton16);
+        pButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        pButton.setForeground(new java.awt.Color(44, 62, 80));
+        pButton.setText("P");
+        jPanel2.add(pButton);
 
-        jButton17.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton17.setForeground(new java.awt.Color(44, 62, 80));
-        jButton17.setText("Q");
-        jPanel2.add(jButton17);
+        qButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        qButton.setForeground(new java.awt.Color(44, 62, 80));
+        qButton.setText("Q");
+        jPanel2.add(qButton);
 
-        jButton18.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton18.setForeground(new java.awt.Color(44, 62, 80));
-        jButton18.setText("R");
-        jPanel2.add(jButton18);
+        rButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        rButton.setForeground(new java.awt.Color(44, 62, 80));
+        rButton.setText("R");
+        jPanel2.add(rButton);
 
-        jButton19.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton19.setForeground(new java.awt.Color(44, 62, 80));
-        jButton19.setText("S");
-        jPanel2.add(jButton19);
+        sButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        sButton.setForeground(new java.awt.Color(44, 62, 80));
+        sButton.setText("S");
+        jPanel2.add(sButton);
 
-        jButton20.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(44, 62, 80));
-        jButton20.setText("T");
-        jPanel2.add(jButton20);
+        tButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        tButton.setForeground(new java.awt.Color(44, 62, 80));
+        tButton.setText("T");
+        jPanel2.add(tButton);
 
-        jButton21.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(44, 62, 80));
-        jButton21.setText("U");
-        jPanel2.add(jButton21);
+        uButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        uButton.setForeground(new java.awt.Color(44, 62, 80));
+        uButton.setText("U");
+        uButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                uButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(uButton);
 
-        jButton22.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(44, 62, 80));
-        jButton22.setText("V");
-        jPanel2.add(jButton22);
+        vButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        vButton.setForeground(new java.awt.Color(44, 62, 80));
+        vButton.setText("V");
+        vButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(vButton);
 
-        jButton23.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton23.setForeground(new java.awt.Color(44, 62, 80));
-        jButton23.setText("W");
-        jPanel2.add(jButton23);
+        wButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        wButton.setForeground(new java.awt.Color(44, 62, 80));
+        wButton.setText("W");
+        wButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                wButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(wButton);
 
-        jButton24.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton24.setForeground(new java.awt.Color(44, 62, 80));
-        jButton24.setText("X");
-        jPanel2.add(jButton24);
+        xButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        xButton.setForeground(new java.awt.Color(44, 62, 80));
+        xButton.setText("X");
+        xButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                xButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(xButton);
 
-        jButton25.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton25.setForeground(new java.awt.Color(44, 62, 80));
-        jButton25.setText("Y");
-        jPanel2.add(jButton25);
+        yButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        yButton.setForeground(new java.awt.Color(44, 62, 80));
+        yButton.setText("Y");
+        yButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                yButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(yButton);
 
-        jButton26.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
-        jButton26.setForeground(new java.awt.Color(44, 62, 80));
-        jButton26.setText("Z");
-        jPanel2.add(jButton26);
+        zButton.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        zButton.setForeground(new java.awt.Color(44, 62, 80));
+        zButton.setText("Z");
+        zButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                zButtonActionPerformed(evt);
+            }
+        });
+        jPanel2.add(zButton);
 
         jPanel3.setBackground(new java.awt.Color(41, 128, 185));
 
@@ -336,20 +366,50 @@ public class HangmanFrame extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_formWindowOpened
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void aButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aButtonActionPerformed
         verificarLetra('A');
-        jButton1.setEnabled(false);
-    }//GEN-LAST:event_jButton1ActionPerformed
+        aButton.setEnabled(false);
+    }//GEN-LAST:event_aButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void bButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bButtonActionPerformed
         verificarLetra('B');
-        jButton2.setEnabled(false);
-    }//GEN-LAST:event_jButton2ActionPerformed
+        bButton.setEnabled(false);
+    }//GEN-LAST:event_bButtonActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
         verificarLetra('C');
-        jButton3.setEnabled(false);
-    }//GEN-LAST:event_jButton3ActionPerformed
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_cButtonActionPerformed
+
+    private void zButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zButtonActionPerformed
+        verificarLetra('Z');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_zButtonActionPerformed
+
+    private void yButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yButtonActionPerformed
+        verificarLetra('Y');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_yButtonActionPerformed
+
+    private void xButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xButtonActionPerformed
+        verificarLetra('X');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_xButtonActionPerformed
+
+    private void wButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_wButtonActionPerformed
+        verificarLetra('W');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_wButtonActionPerformed
+
+    private void vButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vButtonActionPerformed
+        verificarLetra('V');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_vButtonActionPerformed
+
+    private void uButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_uButtonActionPerformed
+        verificarLetra('U');
+        cButton.setEnabled(false);
+    }//GEN-LAST:event_uButtonActionPerformed
 
     private void adicionarInformacoesNaTela() {
         String linha = lista.remove(0);
@@ -406,37 +466,37 @@ public class HangmanFrame extends javax.swing.JFrame {
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton aButton;
+    private javax.swing.JButton bButton;
+    private javax.swing.JButton cButton;
+    private javax.swing.JButton dButton;
     private javax.swing.JLabel dicaLabel;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JButton eButton;
+    private javax.swing.JButton fButton;
+    private javax.swing.JButton gButton;
+    private javax.swing.JButton hButton;
+    private javax.swing.JButton iButton;
+    private javax.swing.JButton jButton;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JButton kButton;
+    private javax.swing.JButton lButton;
+    private javax.swing.JButton mButton;
+    private javax.swing.JButton nButton;
+    private javax.swing.JButton oButton;
+    private javax.swing.JButton pButton;
+    private javax.swing.JButton qButton;
+    private javax.swing.JButton rButton;
     private javax.swing.JLabel respostaLabel;
+    private javax.swing.JButton sButton;
+    private javax.swing.JButton tButton;
+    private javax.swing.JButton uButton;
+    private javax.swing.JButton vButton;
+    private javax.swing.JButton wButton;
+    private javax.swing.JButton xButton;
+    private javax.swing.JButton yButton;
+    private javax.swing.JButton zButton;
     // End of variables declaration//GEN-END:variables
 }
