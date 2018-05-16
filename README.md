@@ -11,6 +11,7 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - [JFreeChart](http://www.jfree.org/jfreechart/) para geração de gráficos
 - [RXTXComm](http://jlog.org/rxtx.html) para comunicação com o Arduino pela porta Serial
 - [JasperReport](https://community.jaspersoft.com/project/jasperreports-library) para criar PDFs
+- [JBarcodeBean](https://sourceforge.net/projects/jbarcodebean/files/jbarcodebean/1.2.0/)
 
 ## Projeto 1 - Calculadora
 
@@ -109,17 +110,27 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_10.png" height="300"/>
 </p>
 
-## Projeto 11 - Estação Meteorológica
+## Projeto 11 - Sistema de Estacionamento (Código de Barras e Impressora)
 
-- **Componentes:** JFrame, JPanel, JTextField, JButton
-- **Classes:** SerialPort, OutputStream, InputStream
+- **Componentes:** JFrame, JPanel, JLabel, JTextField, JButton
+- **Classes:** 
 
 <p align="center">
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_11.jpg" height="300"/>
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_11.png" height="300"/>
 </p>
 
-## Projeto 12 - Jogo da Forca por Comando de Voz
+## Projeto 12 - Estação Meteorológica
+
+- **Componentes:** JFrame, JPanel, JTextField, JButton
+- **Classes:** SerialPort, OutputStream, InputStream
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_12.jpg" height="300"/>
+  <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_12.png" height="300"/>
+</p>
+
+## Projeto 13 - Jogo da Forca por Comando de Voz
 
 - **Novos componentes:** 
 - **Componentes:** 
@@ -129,8 +140,6 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_12.jpg" height="300"/>
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_12.png" height="300"/>
 </p>
-
-## Projeto 13 - Sistema de Estacionamento (Código de Barras e Impressora)
 
 ## Projeto 14 - Calculo de Tecelagem com Relatórios
 
