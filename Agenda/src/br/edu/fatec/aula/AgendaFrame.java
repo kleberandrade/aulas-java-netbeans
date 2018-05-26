@@ -1,9 +1,16 @@
 package br.edu.fatec.aula;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -52,6 +59,14 @@ public class AgendaFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Aula 5 - Agenda");
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
 
         topoPanel.setBackground(new java.awt.Color(41, 128, 185));
 
@@ -307,11 +322,30 @@ public class AgendaFrame extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+    private void limparFormulario() {
+        nomeTextField.setText("");
+        emailTextField.setText("");
+        celularFormattedTextField.setValue("");
+        telefoneFormattedTextField.setValue("");
+        sexoComboBox.setSelectedIndex(0);
+        operadoraComboBox.setSelectedIndex(0);
+        dataNascimentoDateChooser.setDate(null);
+    }
+
+    public void adicionarNovaLinhaNaTabela(Object[] linha) {
+
+        DefaultTableModel modelo = (DefaultTableModel) agendaTable.getModel();
+        modelo.addRow(linha);
+    }
+
+    public void atualizarLinhaDaTabela(Object[] linha) {
+
+    }
+
     private void salvarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salvarButtonActionPerformed
 
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 
-        DefaultTableModel model = (DefaultTableModel) agendaTable.getModel();
         Object[] linha = {
             nomeTextField.getText(),
             df.format(dataNascimentoDateChooser.getDate()),
@@ -321,41 +355,22 @@ public class AgendaFrame extends javax.swing.JFrame {
             celularFormattedTextField.getText(),
             operadoraComboBox.getSelectedItem()
         };
-        model.addRow(linha);
 
-        nomeTextField.setText("");
-        emailTextField.setText("");
-        celularFormattedTextField.setValue("");
-        telefoneFormattedTextField.setValue("");
-        sexoComboBox.setSelectedIndex(0);
-        operadoraComboBox.setSelectedIndex(0);
-        dataNascimentoDateChooser.setDate(null);
+        adicionarNovaLinhaNaTabela(linha);
+        limparFormulario();
     }//GEN-LAST:event_salvarButtonActionPerformed
 
     private void novoButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_novoButtonActionPerformed
-        nomeTextField.setText("");
-        emailTextField.setText("");
-        celularFormattedTextField.setValue("");
-        telefoneFormattedTextField.setValue("");
-        sexoComboBox.setSelectedIndex(0);
-        operadoraComboBox.setSelectedIndex(0);
-        dataNascimentoDateChooser.setDate(null);
+        limparFormulario();
     }//GEN-LAST:event_novoButtonActionPerformed
 
     private void excluirButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_excluirButtonActionPerformed
 
         int linhaSelecionada = agendaTable.getSelectedRow();
-
         DefaultTableModel modelo = (DefaultTableModel) agendaTable.getModel();
         modelo.removeRow(linhaSelecionada);
 
-        nomeTextField.setText("");
-        emailTextField.setText("");
-        celularFormattedTextField.setValue("");
-        telefoneFormattedTextField.setValue("");
-        sexoComboBox.setSelectedIndex(0);
-        operadoraComboBox.setSelectedIndex(0);
-        dataNascimentoDateChooser.setDate(null);
+        limparFormulario();
     }//GEN-LAST:event_excluirButtonActionPerformed
 
     private void agendaTableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agendaTableMouseClicked
@@ -386,9 +401,9 @@ public class AgendaFrame extends javax.swing.JFrame {
         DefaultTableModel modelo = (DefaultTableModel) agendaTable.getModel();
 
         int linhaSelecionada = agendaTable.getSelectedRow();
-        
+
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
-        
+
         modelo.setValueAt(nomeTextField.getText(), linhaSelecionada, 0);
         modelo.setValueAt(df.format(dataNascimentoDateChooser.getDate()), linhaSelecionada, 1);
         modelo.setValueAt(emailTextField.getText(), linhaSelecionada, 2);
@@ -396,15 +411,75 @@ public class AgendaFrame extends javax.swing.JFrame {
         modelo.setValueAt(telefoneFormattedTextField.getText(), linhaSelecionada, 4);
         modelo.setValueAt(celularFormattedTextField.getText(), linhaSelecionada, 5);
         modelo.setValueAt(operadoraComboBox.getSelectedItem(), linhaSelecionada, 6);
-        
-        nomeTextField.setText("");
-        emailTextField.setText("");
-        celularFormattedTextField.setValue("");
-        telefoneFormattedTextField.setValue("");
-        sexoComboBox.setSelectedIndex(0);
-        operadoraComboBox.setSelectedIndex(0);
-        dataNascimentoDateChooser.setDate(null);
+
+        limparFormulario();
     }//GEN-LAST:event_atualizarButtonActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+
+        try {
+            FileReader arquivo = new FileReader("contatos_save.txt");
+            Scanner entrada = new Scanner(arquivo);
+
+            while (entrada.hasNext()) {
+                String linha = entrada.nextLine();
+                String[] campos = linha.split(";");
+
+                DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+
+                Object[] linhaParaAdicionarNaTabela = {
+                    campos[0],
+                    campos[1],
+                    campos[2],
+                    campos[3],
+                    campos[4],
+                    campos[5],
+                    campos[6]
+                };
+
+                adicionarNovaLinhaNaTabela(linhaParaAdicionarNaTabela);
+            }
+
+            entrada.close();
+            arquivo.close();
+        } catch (IOException ex) {
+            
+        }
+        
+        limparFormulario();
+    }//GEN-LAST:event_formWindowOpened
+
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+       
+        try {
+            FileWriter arquivo = new FileWriter("contatos_save.txt");
+            PrintWriter saida = new PrintWriter(arquivo);
+
+            DefaultTableModel modelo = (DefaultTableModel) agendaTable.getModel();
+
+            for (int i = 0; i < modelo.getRowCount(); i++) {
+
+                StringBuilder sBuilder = new StringBuilder();
+
+                sBuilder.append(modelo.getValueAt(i, 0)).append(";");   // Nome
+                sBuilder.append(modelo.getValueAt(i, 1)).append(";");   // Data
+                sBuilder.append(modelo.getValueAt(i, 2)).append(";");   // Email
+                sBuilder.append(modelo.getValueAt(i, 3)).append(";");   // Sexo
+                sBuilder.append(modelo.getValueAt(i, 4)).append(";");   // Telefone
+                sBuilder.append(modelo.getValueAt(i, 5)).append(";");   // Celular
+                sBuilder.append(modelo.getValueAt(i, 6)).append("\r\n");   // Operadora
+
+                saida.write(sBuilder.toString());
+                saida.flush();
+            }
+            
+            saida.close();
+            arquivo.close();
+        } catch (IOException ex) {
+            Logger.getLogger(AgendaFrame.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }//GEN-LAST:event_formWindowClosing
 
     /**
      * @param args the command line arguments
