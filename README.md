@@ -140,7 +140,3 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/sketch_aula_12.jpg" height="300"/>
   <img src="https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Imagens/resultado_aula_12.png" height="300"/>
 </p>
-
-## Projeto 14 - Calculo de Tecelagem com Relatórios
-
-## Projeto 15 - Tela de Apresentação, Login e Instaladores
