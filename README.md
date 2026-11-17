@@ -1,3 +1,42 @@
+# Java Desktop Programming Classes
+
+![Language: Java](https://img.shields.io/badge/Language-Java-555555)
+![IDE: NetBeans](https://img.shields.io/badge/IDE-NetBeans-1B6AC6)
+
+Java desktop-interface examples developed with NetBeans for programming classes.
+
+## Getting started
+
+- Open `Agenda`, `Calculadora`, `Conversões`, `EightPuzzle`, `Mercado`, `TicTacToe` as an existing project in NetBeans.
+
+- Inspect the project libraries and original course notes before using Build or Run; historical external libraries may need to be restored.
+
+## Recorded requirements
+
+- A JDK and NetBeans compatible with the tracked Ant project configuration.
+
+## Repository map
+
+- [Agenda/build.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Agenda/build.xml)
+- [Agenda/nbproject/project.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Agenda/nbproject/project.xml)
+- [Calculadora/build.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Calculadora/build.xml)
+- [Calculadora/nbproject/project.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Calculadora/nbproject/project.xml)
+- [ControleFinanceiro/build.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/ControleFinanceiro/build.xml)
+- [Conversões/build.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Convers%C3%B5es/build.xml)
+- [Conversões/nbproject/project.xml](https://github.com/kleberandrade/aulas-java-netbeans/blob/master/Convers%C3%B5es/nbproject/project.xml)
+
+## Validation status
+
+This update documents the tracked source and project metadata. It does not certify a successful build, device test or compatibility with a current toolchain. Follow any project-specific validation instructions in the original material.
+
+## License and attribution
+
+No standalone repository-wide license file was identified in this review. Preserve the original credits and any component-specific licenses; this documentation update grants no additional rights.
+
+---
+
+## Original project material
+
 # Eletiva - Linguagem de Programação III - Linguagem JAVA
 
 Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistemas na [Faculdade de Tecnologia de Americana](http://www.fatec.edu.br/). Todas as aulas são baseadas em pequenos projetos de telas funcionais.
@@ -163,4 +202,3 @@ Licença
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-
